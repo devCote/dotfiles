@@ -1,0 +1,38 @@
+[global_config]
+  window_state = maximise
+  borderless = True
+  broadcast_default = off
+  title_transmit_fg_color = "#20c20e"
+  title_receive_fg_color = "#729fcf"
+  title_inactive_fg_color = "#888a85"
+  title_inactive_bg_color = "#eeeeec"
+  inactive_color_offset = 0.7083333333333334
+  title_use_system_font = False
+  title_font = Hack 14
+[keybindings]
+  page_up_half = <Primary><Shift>k
+  page_down_half = <Primary><Shift>j
+  line_up = <Primary><Shift>Up
+  line_down = <Primary><Shift>Down
+[profiles]
+  [[default]]
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Hack 14
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    scrollback_lines = 1000
+    palette = "#282828:#cc241d:#98971a:#d79921:#3465a4:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#d3d7cf:#d3869b:#8ec07c:#ebdbb2"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
